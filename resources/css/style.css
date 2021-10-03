@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;700;800&display=swap');
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 1570px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.hero-background {
+    background-color: #282932;
+    border-bottom-right-radius: 72%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.hero-block {
+    height: 990px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-hero-container {
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.335);
+}
+
+.header .logo img {
+    max-height: 42px;
+    height: 100%;
+}
+
+.main-menu-block {
+    display: flex;
+}
+
+.main-menu-list {
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.main-menu-item {
+    padding-right: 6px;
+    list-style: none;
+}
+
+.main-menu-item a {
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+    line-height: 30.6px;
+    padding-right: 22px;
+    padding-left: 22px;
+    display: flex;
+}
+
+/* .main-menu-item a::after {
+    content: url(src/img/right-arrow.svg);
+    height: 24px;
+    width: 24px;
+    fill: white;
+} */
+
+.main-menu-item a:hover, .main-menu-item.main-page a {
+    color: #f7b614;
+}
+
+.hero-content {
+    display: flex;
+}
+
+.hero-content-wrap {
+    margin-top: 220px;
+}
+
+.main-title-block {
+    margin-bottom: 16px;
+}
+
+.main-title{
+    color: #f7b614;
+    font-family: 'Heebo', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.main-title span{
+    color: #fff;
+}
+
+.main-title-description span {
+    font-family: 'Catamaran', sans-serif;
+    color: #fff
+}
+
+.main-title-button-wrap {
+    margin-top: 50px;
+}
+
+.main-title-button-wrap .button {
+    background-color: #f7b614;
+    border-radius: 40px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 30.6px;
+    padding: 22px 30px;
+    color: #282932;
+    width: 260px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content-block {
+    display: flex;
+}
+
+.hero-img-block img {
+    width: 1000px;
+}
+
+.hero-img-block {
+    margin-top: 60px;
+}
+
+.main-description-wrap {
+    width: 563px;
+}
+
+.hero-content-categories-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+}
+
+.category-content-wrap {
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #f1efe6;
+    border-radius: 18px;
+    display: flex;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.category-content-wrap .category-img {
+    width: 100px;
+    height: 100px;
+    background-color: #f7b614;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.category-img span {
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.category-img #fastfood {
+    background-image: url('/src/img/burger.svg');
+}
+
+.category-img #pizza {
+    background-image: url('/src/img/pizza.svg');
+}
+
+.category-img #asian {
+    background-image: url('/src/img/sushi.svg');
+}
+
+.category-img #meat {
+    background-image: url('/src/img/meat.svg');
+}
+
+.category-content-wrap .category-content-title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
