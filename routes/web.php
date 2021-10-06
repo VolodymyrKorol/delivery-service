@@ -21,3 +21,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/account', [App\Http\Controllers\AccountController::class, 'index'])->name('account');
+Route::get('/account/dashboard', [App\Http\Controllers\AccountController::class, 'index'])->name('account/dashboard');
+Route::get('/account/orders', [App\Http\Controllers\AccountController::class, 'index'])->name('account/orders');
+Route::get('/restaurants', [App\Http\Controllers\AccountController::class, 'createOrderPage'])->name('restaurants');
+Route::get('/restaurants/{provider_id}', [App\Http\Controllers\AccountController::class, 'getProductsPage'])->name('menu');
+Route::post('/cart/append', [App\Http\Controllers\CartController::class, 'addProductToCart'])->name('add-to-cart');

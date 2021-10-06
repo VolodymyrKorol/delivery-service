@@ -28,6 +28,9 @@
                         <li class="main-menu-item main-page">
                             <a href="{{ url('/home') }}">Home</a>
                         </li>
+                        <li class="main-menu-item main-page">
+                            <a href="{{ url('/account') }}">Account</a>
+                        </li>
                     @else
                         <li class="main-menu-item">
                             <a href="{{ route('login') }}">Log in</a>

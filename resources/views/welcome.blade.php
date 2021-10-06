@@ -5,65 +5,63 @@
 
     <body class="antialiased">
         <div class="relative items-top min-h-screen dark:bg-gray-900">
-
-
-                <div class="hero-block">
-                    <div class="hero-background">
-                    </div>
+            <div class="hero-block">
+                <div class="hero-background">
                 </div>
-                <div class="main-hero-container">
-                    @include('header')
-                    <div class="hero-content">
-                        <div class="hero-content-container container">
-                            <div class="hero-content-block">
-                                <section class="hero-content-wrap">
-                                    <div class="main-title-wrap">
-                                        <h1 class="main-title">
-                                            <span>Express</span><br>Home delivery
-                                        </h1>
-                                    </div>
-                                    <div class="main-description-wrap">
-                                        <p class="main-title-description">
-                                            <span>Curabitur imperdiet varius lacus, id placerat purus vulputate non. Fusce in felis vel arcu maximus placerat eu ut arcu. Ut nunc ex, gravida vel porttitor et, pretium ac sapien.</span>
-                                        </p>
-                                    </div>
-                                    <div class="main-title-button-wrap">
-                                        <a class="button" href="#"><span>Read more</span></a>
-                                    </div>
-                                </section>
-                                <div class="hero-img-block">
-                                    <img src="src/img/slider-courier-mask.png" alt="">
+            </div>
+            <div class="main-hero-container">
+                @include('header')
+                <div class="hero-content">
+                    <div class="hero-content-container container">
+                        <div class="hero-content-block">
+                            <section class="hero-content-wrap">
+                                <div class="main-title-wrap">
+                                    <h1 class="main-title">
+                                        <span>Express</span><br>Home delivery
+                                    </h1>
+                                </div>
+                                <div class="main-description-wrap">
+                                    <p class="main-title-description">
+                                        <span>Curabitur imperdiet varius lacus, id placerat purus vulputate non. Fusce in felis vel arcu maximus placerat eu ut arcu. Ut nunc ex, gravida vel porttitor et, pretium ac sapien.</span>
+                                    </p>
+                                </div>
+                                <div class="main-title-button-wrap">
+                                    <a class="button" href="#"><span>Read more</span></a>
+                                </div>
+                            </section>
+                            <div class="hero-img-block">
+                                <img src="src/img/slider-courier-mask.png" alt="">
+                            </div>
+                        </div>
+                        <div class="hero-content-categories-block">
+                            <div class="category-content-wrap">
+                                <div class="category-img"><span id="fastfood"></span></div>
+                                <div class="category-content-title">
+                                    <h3>Fastfood</h3>
                                 </div>
                             </div>
-                            <div class="hero-content-categories-block">
-                                <div class="category-content-wrap">
-                                    <div class="category-img"><span id="fastfood"></span></div>
-                                    <div class="category-content-title">
-                                        <h3>Fastfood</h3>
-                                    </div>
+                            <div class="category-content-wrap">
+                                <div class="category-img"><span id="pizza"></span></div>
+                                <div class="category-content-title">
+                                    <h3>Hot pizza</h3>
                                 </div>
-                                <div class="category-content-wrap">
-                                    <div class="category-img"><span id="pizza"></span></div>
-                                    <div class="category-content-title">
-                                        <h3>Hot pizza</h3>
-                                    </div>
+                            </div>
+                            <div class="category-content-wrap">
+                                <div class="category-img"><span id="asian"></span></div>
+                                <div class="category-content-title">
+                                    <h3>Asian food</h3>
                                 </div>
-                                <div class="category-content-wrap">
-                                    <div class="category-img"><span id="asian"></span></div>
-                                    <div class="category-content-title">
-                                        <h3>Asian food</h3>
-                                    </div>
-                                </div>
-                                <div class="category-content-wrap">
-                                    <div class="category-img"><span id="meat"></span></div>
-                                    <div class="category-content-title">
-                                        <h3>Raw meat</h3>
-                                    </div>
+                            </div>
+                            <div class="category-content-wrap">
+                                <div class="category-img"><span id="meat"></span></div>
+                                <div class="category-content-title">
+                                    <h3>Raw meat</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
